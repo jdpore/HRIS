@@ -1,0 +1,76 @@
+.card {
+  position: relative;
+  color: #fff;
+  margin: 20px 0px;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+.card:hover {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+.card:hover .icon i {
+  font-size: 100px;
+  transition: 1s;
+}
+
+.card .inner {
+  padding: 5px 10px 0 10px;
+}
+
+.card h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 0 8px 0;
+  white-space: nowrap;
+  padding: 0;
+  text-align: left;
+}
+
+.card p {
+  font-size: 17px;
+}
+
+.card .icon {
+  position: absolute;
+  top: auto;
+  bottom: 20px;
+  right: 20px;
+  z-index: 0;
+  font-size: 75px;
+  color: rgba(0, 0, 0, 0.15);
+}
+
+.card-link {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  text-align: center;
+  padding: 3px 0;
+  color: rgba(255, 255, 255, 0.8);
+  background: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  text-decoration: none;
+}
+
+.card:hover .card-link {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.bg-blue {
+  background-color: #00c0ef !important;
+}
+
+.bg-green {
+  background-color: #00a65a !important;
+}
+
+.bg-orange {
+  background-color: #f39c12 !important;
+}
+
+.bg-red {
+  background-color: #d9534f !important;
+}

@@ -1,0 +1,14 @@
+.table td,
+.table th {
+  margin-top: 0%;
+  padding-left: 25px;
+  padding-right: 25px;
+  white-space: nowrap;
+  background-color: white;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+}
